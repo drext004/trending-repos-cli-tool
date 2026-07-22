@@ -1,8 +1,8 @@
-## GitHub Trending Repos CLI 
+# GitHub Trending Repos CLI 
 
 A robust, production-ready Command Line Interface (CLI) utility built with Node.js and TypeScript. This tool queries the GitHub Search API to discover trending repositories while utilizing an intelligent, multi-query Master JSON Cache to bypass network bottlenecks and respect GitHub's API rate limits.
 
-# Features
+## Features
 
 1. Flexible Repository Search: Filter trending repositories dynamically by programming language, duration (day, week, month, year), and custom limits.
 
@@ -16,7 +16,9 @@ A robust, production-ready Command Line Interface (CLI) utility built with Node.
 
 6. Tech Stack & Key Concepts
 
-Language: TypeScript
+##
+
+### Language: TypeScript
 
 Runtime Environment: Node.js
 
@@ -30,7 +32,7 @@ DRY (Don't Repeat Yourself): Streamlining console rendering into a single, highl
 
 Atomic Cache Operations: Safely deserializing, merging, and writing cache files as atomic units in memory to avoid parsing issues and broken file structures on disk.
 
-#  Installation & Setup
+##  Installation & Setup
 
 Clone the repository:
 
@@ -38,51 +40,60 @@ git clone https://github.com/drext004/trending-repos-cli-tool.git
 cd github-trending-cli
 
 
+```
 Install dependencies:
-
 npm install
-
+```
 
 Configure your project's module type:
 Ensure your package.json has modern ES Module support enabled:
-
+```
 "type": "module"
 
 
 Install TypeScript definition files:
 
 npm i --save-dev @types/node
+```
 
-
-Usage
+### Usage
 
 Run the CLI using tsx (or compile it down with tsc):
 
-# Basic usage (defaults to top 10 from past week)
+### Basic usage (defaults to top 10 from past week)
+```
 npx tsx cli.ts --language typescript
+```
 
-# Custom limit and duration
+### Custom limit and duration
+```
 npx tsx cli.ts --language python --duration month --limit 5
+```
 
-# Get the absolute hottest repositories from today
+### Get the hottest repositories from today
+```
 npx tsx cli.ts --language rust --duration day --limit 3
-
+```
 
 ## Supported Command Arguments:
 
+```
 --language <lang>: The programming language you want to search (e.g., typescript, python, rust).
 
 --duration <time>: The timeframe since repository creation. Supported values: day, week, month, year (Default: week).
 
 --limit <number>: The maximum number of trending repositories to display (Default: 10).
+```
 
-# Architecture & Caching Strategy
+
+### Architecture & Caching Strategy
 
 Unlike basic caching systems that overwrite previous files or corrupt JSON formatting using un-parsed appending, this utility manages a Single Master JSON Cache (trendingRepos.json) as a local key-value store.
 
-The "Read-Modify-Write" Cache Lifecycle:
+The *"Read-Modify-Write"* Cache Lifecycle:
 
-Dynamic Key Generation: The CLI computes a unique query key for every search (e.g., language:rust+week).
+##### Dynamic Key Generation:
+ The CLI computes a unique query key for every search (e.g., language:rust+week).
 
 File Check & Parse: If the cache file exists on disk, it reads the data and deserializes it into active JavaScript memory (JSON.parse).
 
@@ -91,6 +102,3 @@ Cache Validation: It verifies if the exact query exists and checks the Unix-time
 $$\text{currentTime} - \text{cacheTime} < 300,000 \text{ ms (5 minutes)}$$
 
 Cache Miss & Network Update: If expired or missing, it triggers a live API call, saves the fresh payload using bracket notation under its specific key, and overwrites the target file with stringified JSON safely.
-
-
-Project URL from roadmap.sh: https://roadmap.sh/projects/github-trending-cli
