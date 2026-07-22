@@ -1,0 +1,166 @@
+{
+  "language:java+day": {
+    "timestamp": 1784207413746,
+    "query": "language:java+day",
+    "repos": [
+      {
+        "full_name": "BP-cy/TailorAgent",
+        "html_url": "https://github.com/BP-cy/TailorAgent",
+        "description": null,
+        "stargazers_count": 7,
+        "language": "Java"
+      },
+      {
+        "full_name": "GerardRojasMancilla/learning-center-platform-master",
+        "html_url": "https://github.com/GerardRojasMancilla/learning-center-platform-master",
+        "description": null,
+        "stargazers_count": 3,
+        "language": "Java"
+      },
+      {
+        "full_name": "Galassis/Halation",
+        "html_url": "https://github.com/Galassis/Halation",
+        "description": "A simple Color Grading software",
+        "stargazers_count": 3,
+        "language": "Java"
+      },
+      {
+        "full_name": "DeterMination-Wind/Random",
+        "html_url": "https://github.com/DeterMination-Wind/Random",
+        "description": "A tiny chaos lottery for Mindustry's database and main sprites.",
+        "stargazers_count": 3,
+        "language": "Java"
+      },
+      {
+        "full_name": "TheNirajMahale/lorekeeper-api",
+        "html_url": "https://github.com/TheNirajMahale/lorekeeper-api",
+        "description": "Spring Boot backend for LoreKeeper: a personal reading tracker with Open Library integration.",
+        "stargazers_count": 2,
+        "language": "Java"
+      }
+    ]
+  },
+  "language:python+day": {
+    "timestamp": 1784207399535,
+    "query": "language:python+day",
+    "repos": [
+      {
+        "full_name": "ZhengLingargogh/CoCo-SCR",
+        "html_url": "https://github.com/ZhengLingargogh/CoCo-SCR",
+        "description": "Covisibility-Centric Scene Coordinate Regression for Large-Scale UAV_Visual Localization",
+        "stargazers_count": 8,
+        "language": "Python"
+      },
+      {
+        "full_name": "huleidada/matterloop",
+        "html_url": "https://github.com/huleidada/matterloop",
+        "description": "A modular Python framework for verifiable and resumable agent loops, featuring human feedback, multi-agent DAG orchestration, pluggable models and tools, budgets, checkpoints, and runtime integrations.",
+        "stargazers_count": 8,
+        "language": "Python"
+      },
+      {
+        "full_name": "tonyleJT/metro-navigation-public",
+        "html_url": "https://github.com/tonyleJT/metro-navigation-public",
+        "description": "Phase-aware computer-vision metro navigation research prototype for visually impaired users",
+        "stargazers_count": 8,
+        "language": "Python"
+      },
+      {
+        "full_name": "Pinperepette/context-kernel",
+        "html_url": "https://github.com/Pinperepette/context-kernel",
+        "description": "Task-induced context normalization for coding agents — a native Claude Code plugin. The task induces a projection; operators preserve the answer, not just shrink tokens. Deterministic, stdlib-only, 117 tests.",
+        "stargazers_count": 7,
+        "language": "Python"
+      },
+      {
+        "full_name": "ZhengLingargogh/scene-understanding-platform",
+        "html_url": "https://github.com/ZhengLingargogh/scene-understanding-platform",
+        "description": "Scene understanding platform built with FastAPI and React. Plugin-based CV inference with SALAD, NetVLAD, SuperPoint, SIFT, LightGlue, and SAM. Features dataset management, model registry, image retrieval, matching, feature visualization, and interactive/batch segmentation.",
+        "stargazers_count": 7,
+        "language": "Python"
+      }
+    ]
+  },
+  "language:java+week": {
+    "timestamp": 1784207514536,
+    "query": "language:java+week",
+    "repos": [
+      {
+        "full_name": "oversecured/Samsung_Vulnerabilities",
+        "html_url": "https://github.com/oversecured/Samsung_Vulnerabilities",
+        "description": "176 vulnerabilities in Samsung preinstalled Android apps",
+        "stargazers_count": 186,
+        "language": "Java"
+      },
+      {
+        "full_name": "youxiandechilun/Guido",
+        "html_url": "https://github.com/youxiandechilun/Guido",
+        "description": "景区导览服务 AI 数字人：基于 Spring Boot、Vue 3、UniApp 与本地 RAG 的智能导览系统。",
+        "stargazers_count": 104,
+        "language": "Java"
+      },
+      {
+        "full_name": "kuohsuanlo/BetterRecipeMemory-Datapack",
+        "html_url": "https://github.com/kuohsuanlo/BetterRecipeMemory-Datapack",
+        "description": null,
+        "stargazers_count": 39,
+        "language": "Java"
+      },
+      {
+        "full_name": "execiq/Authz-ExeC",
+        "html_url": "https://github.com/execiq/Authz-ExeC",
+        "description": "Burp Suite extension for cross-identity & cross-tenant access-control testing — BAC, IDOR, BOLA, and privilege escalation.",
+        "stargazers_count": 38,
+        "language": "Java"
+      },
+      {
+        "full_name": "demavrin/Java-Learning",
+        "html_url": "https://github.com/demavrin/Java-Learning",
+        "description": "My Java learning repository containing examples, exercises, and beginner projects.",
+        "stargazers_count": 31,
+        "language": "Java"
+      }
+    ]
+  },
+  "language:java+month": {
+    "timestamp": 1784207706319,
+    "query": "language:java+month",
+    "repos": [
+      {
+        "full_name": "ingriddaleusag-dotcom/PickTV",
+        "html_url": "https://github.com/ingriddaleusag-dotcom/PickTV",
+        "description": null,
+        "stargazers_count": 483,
+        "language": "Java"
+      },
+      {
+        "full_name": "nullpointexception-i/agent-sphere",
+        "html_url": "https://github.com/nullpointexception-i/agent-sphere",
+        "description": "This project is an AI Agent orchestration platform. It uses an LLM-driven decision engine, combined with capabilities (built-in tools, MCP protocol, CLI execution, browser operations, etc.), to achieve a basic closed loop from perception → planning → execution → feedback.本项目是一个面向 AI Agent 编排平台。它通过 LLM 驱动的决策引擎，结合能力（内置工具、MCP 协议、CLI 执行、浏览器操作等）",
+        "stargazers_count": 352,
+        "language": "Java"
+      },
+      {
+        "full_name": "databufflabs/databuff",
+        "html_url": "https://github.com/databufflabs/databuff",
+        "description": "AI-native OpenTelemetry APM with multi-agent root-cause analysis across traces, metrics, and service topology",
+        "stargazers_count": 319,
+        "language": "Java"
+      },
+      {
+        "full_name": "oversecured/Samsung_Vulnerabilities",
+        "html_url": "https://github.com/oversecured/Samsung_Vulnerabilities",
+        "description": "176 vulnerabilities in Samsung preinstalled Android apps",
+        "stargazers_count": 187,
+        "language": "Java"
+      },
+      {
+        "full_name": "waylean/shuttleposereview",
+        "html_url": "https://github.com/waylean/shuttleposereview",
+        "description": "A motion review project for badminton enthusiasts.",
+        "stargazers_count": 117,
+        "language": "Java"
+      }
+    ]
+  }
+}
