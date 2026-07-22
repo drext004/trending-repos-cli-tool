@@ -34,7 +34,7 @@ Atomic Cache Operations: Safely deserializing, merging, and writing cache files 
 
 Clone the repository:
 
-git clone https://github.com/YOUR_USERNAME/github-trending-cli.git
+git clone https://github.com/drext004/trending-repos-cli-tool.git
 cd github-trending-cli
 
 
