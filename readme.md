@@ -39,9 +39,8 @@ Clone the repository:
 git clone https://github.com/drext004/trending-repos-cli-tool.git
 cd github-trending-cli
 
-
-```
 Install dependencies:
+```
 npm install
 ```
 
@@ -49,10 +48,10 @@ Configure your project's module type:
 Ensure your package.json has modern ES Module support enabled:
 ```
 "type": "module"
-
+```
 
 Install TypeScript definition files:
-
+```
 npm i --save-dev @types/node
 ```
 
