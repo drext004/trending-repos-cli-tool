@@ -91,3 +91,6 @@ Cache Validation: It verifies if the exact query exists and checks the Unix-time
 $$\text{currentTime} - \text{cacheTime} < 300,000 \text{ ms (5 minutes)}$$
 
 Cache Miss & Network Update: If expired or missing, it triggers a live API call, saves the fresh payload using bracket notation under its specific key, and overwrites the target file with stringified JSON safely.
+
+
+Project URL from roadmap.sh: https://roadmap.sh/projects/github-trending-cli
