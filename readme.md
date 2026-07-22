@@ -1,4 +1,4 @@
-## GitHub Trending Repos CLI 🚀
+## GitHub Trending Repos CLI 
 
 A robust, production-ready Command Line Interface (CLI) utility built with Node.js and TypeScript. This tool queries the GitHub Search API to discover trending repositories while utilizing an intelligent, multi-query Master JSON Cache to bypass network bottlenecks and respect GitHub's API rate limits.
 
@@ -30,7 +30,7 @@ DRY (Don't Repeat Yourself): Streamlining console rendering into a single, highl
 
 Atomic Cache Operations: Safely deserializing, merging, and writing cache files as atomic units in memory to avoid parsing issues and broken file structures on disk.
 
-# 🚀 Installation & Setup
+#  Installation & Setup
 
 Clone the repository:
 
@@ -54,7 +54,7 @@ Install TypeScript definition files:
 npm i --save-dev @types/node
 
 
-💻 Usage
+Usage
 
 Run the CLI using tsx (or compile it down with tsc):
 
@@ -76,7 +76,7 @@ npx tsx cli.ts --language rust --duration day --limit 3
 
 --limit <number>: The maximum number of trending repositories to display (Default: 10).
 
-📂 Architecture & Caching Strategy
+# Architecture & Caching Strategy
 
 Unlike basic caching systems that overwrite previous files or corrupt JSON formatting using un-parsed appending, this utility manages a Single Master JSON Cache (trendingRepos.json) as a local key-value store.
 
