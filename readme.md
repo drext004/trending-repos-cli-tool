@@ -38,7 +38,7 @@ git clone https://github.com/drext004/trending-repos-cli-tool.git
 cd github-trending-cli
 
 
-Install dependencies:
+*Install dependencies:*
 
 npm install
 

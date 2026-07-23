@@ -186,7 +186,6 @@ async function startCli(){
         await updateCache(data);
         return;
         }
-        //else {console.log('chutiya ho tum');}
         }
     
 
